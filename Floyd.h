@@ -7,38 +7,6 @@
              Copyright (c) 2021   
 ========================================================================== /*/
 
-/*
-Introdução dos arquivos solicitados:
-
-Trains.txt
----------------
-0 Red
-1 Green
-2 Blue
-3 Purple
-4 Yellow
----------------
-CONTÉM N LINHAS (N CORRESPONDENDO AO NÚMERO DE ESTAÇÕES LIDAS DESDE O PRIMEIRO ARQUIVO)
-ONDE CADA LINHA CONTÉM UM NÚMERO E UM NOME. O NÚMERO MAPEIA UM NOME PARA OS IDENIFICADORES
-USADOS NO ARQUIVO STATIONS.TXT
-
-estados.txt
----------------
-5 6
-0 1 7
-3 1 10
-4 3 12
-1 4 12
-4 2 32
-1 2 3
-----------------
-A PRIMEIRA LINHA DO ARQUIVO CONTÉM DOIS INTEIROS INDICANDO O NÚMERO DE ESTAÇÕES E ROTAS. 
-A SEGUIR A PRIMEIRA LINHA É N (N SENDO IGUAL AO NÚMERO TOTAL DE ROTAS) LINHAS QUE REPRESENTAM
-ROTAS DIFERENTES E SEUS PESOS ASSOCIADOS.
-Ex.
-A LINHA 2 INDICA UMA ROTA DA ESTAÇÃO 0 À ESTAÇÃO 1 COM PESO 10 
-*/
-
 // COMEÇO DO CÓDIGO
 #include <iostream>
 #include <fstream>
