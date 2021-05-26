@@ -138,7 +138,7 @@ bool leitura(Grafo &grafo)
     std::cout<<" Informe o nome da arquivo: ";
     std::cin>>namefile;                                             //   lendo o nome do arquivo
     if(namefile=="0")return false;
-    std::ifstream open(namefile+".txt");                     //    abrindo
+    std::ifstream open("Testes/"+namefile+".txt");                     //    abrindo
     if (!open.is_open())                                      //    caso encontre o arquivo com esse nome
     {
         std::cout << "\n Erro : nao pode abrir o arquivo "<<namefile<<".txt"<<std::endl;
